@@ -7,7 +7,7 @@
 <h3 align="center">Nurturing Iman Website Archive</h3>
 
   <p align="center">
-    This is the repo for archive of the the Nurturing Iman website. I worked on this website from August 2023 to December 2023. The website is no longer available to the public, but the repo is still shown here to show my work. I have transferred all the code to this new archive repo that I created recently so prospective employers can still look at my work. All sensitive information of the client, including sensitive code, API tokens, commit histories, etc have been removed, and this archive repo simply contains the raw code and assets used to make the original website. 
+    This is the archive repo of the Nurturing Iman website. I worked on this website from August 2023 to December 2023. The website is no longer available to the public, but my code is still preserved here in the archive repo to show my work. I have transferred all the code to this new archive repo that I created recently so prospective employers can still look at my work. All sensitive information of the client, including sensitive code, API tokens, commit histories, etc have been removed, and this archive repo simply contains the raw code and assets used to make the original website. 
     <br />
   </p>
   <p align="center">
