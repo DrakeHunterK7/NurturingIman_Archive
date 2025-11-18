@@ -1,0 +1,78 @@
+@import "../../Styles/variables.scss";
+@import "../../Styles/mixins.scss";
+
+.outer-container{
+    width: 100%;
+}
+
+.content-carousel {
+    background: linear-gradient(90deg, darken($color-four, 20%) 0%, darken($color-five, 30%) 100%);
+    padding: 1rem;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+
+    h4 {
+        margin-top: 1rem;
+        text-align: center;
+        border-radius: 10px;
+        background: linear-gradient(90deg, darken($color-four, 25%) 0%, darken($color-five, 40%) 100%);
+        padding: 1rem;
+        box-shadow: 10px 10px 15px black;
+    }
+}
+
+.inner-carousel-container{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: grab;
+}
+
+.item {
+    margin: 1rem;
+    max-width: fit-content;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 5px darken($color-one, 30%);
+
+    .image {
+        border-radius: 10px;
+        max-width: 25rem;
+        width: 75vw;
+    }
+}
+
+.insta-link-container {
+    background: linear-gradient(90deg, darken($color-four, 20%) 0%, darken($color-five, 30%) 100%);
+    border-radius: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 5px darken($color-one, 30%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 25rem;
+    width: 75vw;
+    font-size: 100%;
+
+    a {
+        text-decoration: none;
+        color: $color-two;
+    }
+
+    img {
+        width: 25%;
+    }
+
+}
